@@ -1,0 +1,20 @@
+{
+  "name": "creonit/storage-bundle",
+  "keywords": [
+    "creonit",
+    "symfony",
+    "storage"
+  ],
+  "license": "GPL-3.0-only",
+  "autoload": {
+    "psr-4": {
+      "Creonit\\StorageBundle\\": ""
+    }
+  },
+  "require": {
+    "creonit/admin-bundle": "~1.0",
+    "creonit/media-bundle": "~1.0",
+    "symfony/serializer": "~4.0|~5.0",
+    "symfony/cache": "~4.0|~5.0"
+  }
+}
